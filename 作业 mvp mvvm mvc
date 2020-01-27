@@ -1,0 +1,3 @@
+mvp 是model view Presenter  model指数据，view视图，Presenter处理层，所有的处理都在Presenter里执行，包括视图的所有数据都是直接从处理层读取。
+mvc 基本上和mvp差不多，但是view是直接从model拿取相应的数据。
+mvvm 是view viewmodel model  mvvm区别于mvc实现了数据与视图的分离，通过数据驱动，只关心数据变化即可。
