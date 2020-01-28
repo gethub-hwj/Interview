@@ -1,0 +1,7 @@
+props[子组件接收父组件的传值]   $emit[子组件向父组件发送，通过事件]  
+$on[监听自定义事件，改变数据，再通过$emit操作]
+vuex 全局的数据都可以用vuex存起来
+Vuex可以和localStorage做本地存储
+$attrs 不被props包含的都在$attr中，可以直接调用  $listeners  包含了父作用域中的 (不含 .native 修饰器的) v-on 事件监听器。
+provide/inject 这个可以跨层级传参   
+$parent 向父组件传参 $children 向子组件传参  ref 如果用于dom元素则指向dom，如果是组件则是组件的实例
