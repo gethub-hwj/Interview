@@ -1,0 +1,8 @@
+一、代码优化
+  1.v-if v-show 合理配合使用
+  2.computed 和 watch  合理配合使用
+  3.v-for 绑定key 避免同时使用v-if
+  4.如果数据不需要Object.defineProperty劫持形成响应式数据，通过Object.freeze冻结
+  5.通过Vue 的 vue-lazyload 实现图片的懒加载
+二、webpack 
+  1.通过image-webpack-loader对图片压缩 
